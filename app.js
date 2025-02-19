@@ -3,6 +3,9 @@ require("./xyz.js");
 
 // const { calculateMultiple } = require("./calculate/multiple.js");
 // // import { calculateSum, x } from "./sum.js";
+const data = require("./data.json");
+
+console.log(JSON.stringify(data));
 
 const { calculateSum, calculateMultiple } = require("./calculate");
 var a = 10;
