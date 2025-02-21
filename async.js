@@ -5,6 +5,8 @@ console.log("Asynchronous Javascript");
 
 var a = 5;
 var b = 10;
+fs.readFileSync("./file.txt", "utf-8");
+console.log("readFileSync this will excute after some time ");
 
 fs.readFileSync("./file.txt", "utf8");
 console.log("This will execute only after reading the file");
