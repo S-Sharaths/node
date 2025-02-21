@@ -1,3 +1,5 @@
+require("../xyz.js");
+
 var x = "hello world";
 
 function calculateSum(a, b) {

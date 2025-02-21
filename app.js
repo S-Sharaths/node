@@ -1,4 +1,4 @@
-require("./xyz.js");
+
 // const calculateObject = require("./calculate/sum.js");
 
 // const { calculateMultiple } = require("./calculate/multiple.js");
